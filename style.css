@@ -1,0 +1,110 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.cart-profile {
+    display: none;
+}
+
+.memorable-moments-1 {
+    text-align: center;
+    background-color: #2CA884;
+    height: max-content;
+    padding: 40px;
+    color: white;
+}
+
+.memorable-moments-2 img {
+    object-fit: cover;
+}
+
+#new-arrivals{
+    margin: 50px;
+}
+#unique-designs{
+    background-color: #FBFBFB;
+}
+#offers{
+    padding: 40px;
+}
+#styles{
+    background-color: #E7F4EF;
+    text-align: center;
+}
+.styles-content h1{
+    padding: 10px 50px;
+    font-weight: bold;
+}
+.contact-content{
+    background-color: #E7F4EF;
+}
+.styles-content{
+    padding: 30px;
+}
+.styles-image{
+    width: 100%;
+}
+
+.footer-list li a{
+    color:#2CA884;
+}
+/* Floating contact form subtle hover */
+#styles .bg-white {
+  transition: all 0.3s ease-in-out;
+}
+
+#styles .bg-white:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact info hover */
+.bg-light {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bg-light:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+@media only screen and (min-width: 768px) {}
+
+
+@media only screen and (min-width: 1200px) {
+    .cart-profile {
+        display: flex;
+        gap: 10px;
+    }
+
+    .memorable-moments-1 {
+        text-align: left;
+        position: relative;
+        top: 200px;
+        left: 30px;
+        height: fit-content;
+        padding: 150px 500px;
+        width: 350px;
+        margin-bottom: 200px;
+    }
+    .memorable-moments-1 h1{
+        /* font-weight: bolder;   
+        font-size: xx-large; */
+        font-weight: 900;         /* Extra bold */
+        font-size: 3.2rem;        /* Bigger heading size */
+        line-height: 1.2;  
+    }
+    .memorable-moments-1 p {
+        font-size: 1.2rem;        /* Optional: make paragraph slightly larger */
+    }
+    .explore-content{
+        margin-top: 500px;
+    }
+    .get-in-touch-p{
+    padding: 10px 150px;
+}
+}
